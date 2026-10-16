@@ -91,7 +91,7 @@ BAMTNFS/
 │   ├── su_neighborhood.py# symmetric-uncertainty computation and domain partition
 │   ├── fitness.py        # 1-NN wrapper fitness (5-fold CV)
 │   └── utils.py          # data loading, statistics, logging
-├── data/                 # datasets (downloaded from the DEMTFS link above)
+├── datasets/             # datasets (downloaded from the DEMTFS link above)
 ├── results/              # output tables, convergence curves, statistics
 ├── Fig/                  # framework and result figures
 ├── requirements.txt      # dependencies
@@ -124,7 +124,7 @@ pip install -r requirements.txt
 
 ```bash
 # 1. Download the 17 datasets from https://github.com/dzhenya-pso/DEMTFS
-#    and place them in the data/ folder.
+#    and place them in the datasets/ folder.
 # 2. Run BAMTNFS (the script name below is an example; replace with your actual entry point)
 python src/main.py
 ```
